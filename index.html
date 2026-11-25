@@ -10,7 +10,7 @@
 </head>
 <body>
   <main class="cabinet">
-    <header class="topbar"><a class="logo" href="#inicio" aria-label="PACO, inicio">✦ PACO<span>.EXE</span></a><span>ARCADE NUBLADO · EDICIÓN 2003 Y PICO</span></header>
+    <header class="topbar"><span class="logo">✦ PACO<span>.EXE</span></span><span>ARCADE NUBLADO · EDICIÓN 2003 Y PICO</span></header>
 
     <section class="start-screen" id="inicio" aria-labelledby="game-title">
       <div class="start-copy">
@@ -30,7 +30,7 @@
       </div>
     </section>
 
-    <form class="test" id="juego" autocomplete="off">
+    <form class="test" id="juego" autocomplete="off" aria-live="polite">
       <section class="stage stage-1" aria-labelledby="q1-title">
         <header class="stage-head"><span>NIVEL 01 / 05</span><span>EL CIELO DE LOS CASI</span></header>
         <div class="progress" role="img" aria-label="Nivel uno de cinco"><i></i></div>
@@ -46,7 +46,6 @@
           </fieldset>
         </div>
         <p class="reaction idle">PACO ESPERA UNA DECISIÓN DE ALTO NIVEL.</p>
-        <a class="sr-only continue" href="#juego">Continuar al nivel dos</a>
       </section>
 
       <section class="stage stage-2" aria-labelledby="q2-title">
