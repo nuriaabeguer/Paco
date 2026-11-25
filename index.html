@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17152b">
+  <title>PACO — El test de las nubes</title>
+  <meta name="description" content="Responde cinco preguntas absurdas y acompaña a Paco, el unicornio presumido, por su camino de nubes.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="cabinet">
+    <header class="topbar"><a class="logo" href="#inicio" aria-label="PACO, inicio">✦ PACO<span>.EXE</span></a><span>ARCADE NUBLADO · EDICIÓN 2003 Y PICO</span></header>
+
+    <section class="start-screen" id="inicio" aria-labelledby="game-title">
+      <div class="start-copy">
+        <p class="eyebrow">TEST ABSURDO · 5 PREGUNTAS · 1 UNICORNIO</p>
+        <h1 id="game-title">¿QUÉ TIPO DE<br><span>UNICORNIO ERES?</span></h1>
+        <p>Elige una respuesta y Paco saltará a la siguiente nube. Consejo: el test no está acreditado por ningún ministerio.</p>
+        <a class="arcade-button" href="#juego">EMPEZAR <span aria-hidden="true">▶</span></a>
+      </div>
+      <div class="sky-intro" aria-label="Paco vuela entre nubes y estrellas">
+        <span class="intro-cloud intro-cloud-a" aria-hidden="true"></span><span class="intro-cloud intro-cloud-b" aria-hidden="true"></span>
+        <span class="intro-star intro-star-a" aria-hidden="true">✦</span><span class="intro-star intro-star-b" aria-hidden="true">✧</span><span class="intro-star intro-star-c" aria-hidden="true">✦</span>
+        <div class="paco flying" role="img" aria-label="Paco, unicornio equino blanco de cuatro patas, cuerno dorado centrado en la frente, crin y cola arcoíris, cara expresiva y gafas de sol">
+          <i class="tail"></i><i class="body"></i><i class="leg leg-a"></i><i class="leg leg-b"></i><i class="leg leg-c"></i><i class="leg leg-d"></i><i class="neck"></i>
+          <i class="head"><i class="mane"></i><i class="ear"></i><i class="horn"></i><i class="forelock"></i><i class="shade shade-a"></i><i class="shade shade-b"></i><i class="muzzle"></i><i class="smile"></i></i>
+        </div>
+        <p class="loading-line">PACO ESTÁ PREPARANDO SU SUPERIORIDAD<span>...</span></p>
+      </div>
+    </section>
+
+    <form class="test" id="juego" autocomplete="off">
+      <section class="stage stage-1" aria-labelledby="q1-title">
+        <header class="stage-head"><span>NIVEL 01 / 05</span><span>EL CIELO DE LOS CASI</span></header>
+        <div class="progress" role="img" aria-label="Nivel uno de cinco"><i></i></div>
+        <h2 id="q1-title">Encuentras una pizza abandonada. ¿Qué haces?</h2>
+        <div class="scene sky">
+          <div class="route" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+          <span class="scene-cloud cloud-a" aria-hidden="true">☁</span><span class="scene-star star-a" aria-hidden="true">✦</span>
+          <div class="paco stop-1" role="img" aria-label="Paco, unicornio equino blanco de cuatro patas con cuerno, crin arcoíris, cola y gafas de sol"><i class="tail"></i><i class="body"></i><i class="leg leg-a"></i><i class="leg leg-b"></i><i class="leg leg-c"></i><i class="leg leg-d"></i><i class="neck"></i><i class="head"><i class="mane"></i><i class="ear"></i><i class="horn"></i><i class="forelock"></i><i class="shade shade-a"></i><i class="shade shade-b"></i><i class="muzzle"></i><i class="smile"></i></i></div>
+          <fieldset class="answers"><legend class="sr-only">Elige una respuesta</legend>
+            <input type="radio" name="q1" id="q1-a"><label for="q1-a">La nombro capitana del almuerzo.</label>
+            <input type="radio" name="q1" id="q1-b"><label for="q1-b">Le pido su carta astral.</label>
+            <input type="radio" name="q1" id="q1-c"><label for="q1-c">La pizza me encontró a mí.</label>
+          </fieldset>
+        </div>
+        <p class="reaction idle">PACO ESPERA UNA DECISIÓN DE ALTO NIVEL.</p>
+        <a class="sr-only continue" href="#juego">Continuar al nivel dos</a>
+      </section>
+
+      <section class="stage stage-2" aria-labelledby="q2-title">
+        <header class="stage-head"><span>NIVEL 02 / 05</span><span>ARCOÍRIS CON PEAJE</span></header>
+        <div class="progress" role="img" aria-label="Nivel dos de cinco"><i></i></div>
+        <h2 id="q2-title">Un pato te mira fijamente. ¿Quién aparta la mirada?</h2>
+        <div class="scene rainbow">
+          <div class="route" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><span class="scene-cloud cloud-b" aria-hidden="true">☁</span><span class="scene-star star-b" aria-hidden="true">✧</span>
+          <div class="paco stop-2" role="img" aria-label="Paco avanza por las nubes con su cuerno dorado y gafas de sol"><i class="tail"></i><i class="body"></i><i class="leg leg-a"></i><i class="leg leg-b"></i><i class="leg leg-c"></i><i class="leg leg-d"></i><i class="neck"></i><i class="head"><i class="mane"></i><i class="ear"></i><i class="horn"></i><i class="forelock"></i><i class="shade shade-a"></i><i class="shade shade-b"></i><i class="muzzle"></i><i class="smile"></i></i></div>
+          <fieldset class="answers"><legend class="sr-only">Elige una respuesta</legend>
+            <input type="radio" name="q2" id="q2-a"><label for="q2-a">El pato. Paco pestañea en cámara lenta.</label>
+            <input type="radio" name="q2" id="q2-b"><label for="q2-b">Yo. Hay tensión en el ambiente.</label>
+            <input type="radio" name="q2" id="q2-c"><label for="q2-c">Un tercero que pasaba por ahí.</label>
+          </fieldset>
+        </div>
+        <p class="reaction idle">EL PATO HA DESVIADO LA MIRADA (EN TU IMAGINACIÓN).</p>
+        <p class="reaction from-a">PACO AVANZA. EL PATO PIDE UN AUTÓGRAFO.</p><p class="reaction from-b">PACO AVANZA. EL PATO GANA POR UN PESTAÑEO.</p><p class="reaction from-c">PACO AVANZA. EL TERCERO SIGUE SIN CONTEXTO.</p>
+      </section>
+
+      <section class="stage stage-3" aria-labelledby="q3-title">
+        <header class="stage-head"><span>NIVEL 03 / 05</span><span>DEPARTAMENTO DE NUBES</span></header>
+        <div class="progress" role="img" aria-label="Nivel tres de cinco"><i></i></div>
+        <h2 id="q3-title">Tu melena empieza a brillar. Tú…</h2>
+        <div class="scene clouds">
+          <div class="route" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><span class="scene-cloud cloud-c" aria-hidden="true">☁</span><span class="scene-star star-c" aria-hidden="true">✦</span>
+          <div class="paco stop-3" role="img" aria-label="Paco salta a otra nube, unicornio blanco con cuatro patas, cuerno, melena y gafas"><i class="tail"></i><i class="body"></i><i class="leg leg-a"></i><i class="leg leg-b"></i><i class="leg leg-c"></i><i class="leg leg-d"></i><i class="neck"></i><i class="head"><i class="mane"></i><i class="ear"></i><i class="horn"></i><i class="forelock"></i><i class="shade shade-a"></i><i class="shade shade-b"></i><i class="muzzle"></i><i class="smile"></i></i></div>
+          <fieldset class="answers"><legend class="sr-only">Elige una respuesta</legend>
+            <input type="radio" name="q3" id="q3-a"><label for="q3-a">Pido que me llamen «el faro».</label>
+            <input type="radio" name="q3" id="q3-b"><label for="q3-b">Compruebo si brillo por dentro.</label>
+            <input type="radio" name="q3" id="q3-c"><label for="q3-c">Cobro entrada a las polillas.</label>
+          </fieldset>
+        </div>
+        <p class="reaction idle">UNA CRIN LUMINOSA CAMBIA MUCHAS COSAS.</p>
+        <p class="reaction from-a">PACO AVANZA. FARO, PERO CON GLAMOUR.</p><p class="reaction from-b">PACO AVANZA. RESULTADO: BRILLO EXTERIOR.</p><p class="reaction from-c">PACO AVANZA. LAS POLILLAS APLAUDEN.</p>
+      </section>
+
+      <section class="stage stage-4" aria-labelledby="q4-title">
+        <header class="stage-head"><span>NIVEL 04 / 05</span><span>ÓRBITA DE ASUNTOS MENORES</span></header>
+        <div class="progress" role="img" aria-label="Nivel cuatro de cinco"><i></i></div>
+        <h2 id="q4-title">Un extraterrestre pide consejos de belleza. ¿Qué dices?</h2>
+        <div class="scene space">
+          <div class="route" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><span class="planet" aria-hidden="true">SATURNO<br>EN LÍNEA</span><span class="scene-star star-d" aria-hidden="true">✧</span>
+          <div class="paco stop-4" role="img" aria-label="Paco galopa por el espacio, unicornio blanco de cuatro patas con cuerno dorado, crin arcoíris, cola y gafas de sol"><i class="tail"></i><i class="body"></i><i class="leg leg-a"></i><i class="leg leg-b"></i><i class="leg leg-c"></i><i class="leg leg-d"></i><i class="neck"></i><i class="head"><i class="mane"></i><i class="ear"></i><i class="horn"></i><i class="forelock"></i><i class="shade shade-a"></i><i class="shade shade-b"></i><i class="muzzle"></i><i class="smile"></i></i></div>
+          <fieldset class="answers"><legend class="sr-only">Elige una respuesta</legend>
+            <input type="radio" name="q4" id="q4-a"><label for="q4-a">Brillo lunar, dos veces al día.</label>
+            <input type="radio" name="q4" id="q4-b"><label for="q4-b">¿Tu planeta tiene peluquería?</label>
+            <input type="radio" name="q4" id="q4-c"><label for="q4-c">Gafas de sol. Incluso de noche.</label>
+          </fieldset>
+        </div>
+        <p class="reaction idle">EL ESPACIO TAMBIÉN TIENE ESPEJOS.</p>
+        <p class="reaction from-a">PACO AVANZA. BELLEZA INTERGALÁCTICA.</p><p class="reaction from-b">PACO AVANZA. TURISMO CAPILAR.</p><p class="reaction from-c">PACO AVANZA. CONSEJO AUTOBIOGRÁFICO.</p>
+      </section>
+
+      <section class="stage stage-5" aria-labelledby="q5-title">
+        <header class="stage-head"><span>NIVEL 05 / 05</span><span>LA CIMA (SIN WIFI)</span></header>
+        <div class="progress" role="img" aria-label="Nivel cinco de cinco"><i></i></div>
+        <h2 id="q5-title">¿Cuál es tu plan para la fama?</h2>
+        <div class="scene finale-scene">
+          <div class="route" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><span class="scene-star star-e" aria-hidden="true">✦</span><span class="scene-star star-f" aria-hidden="true">✧</span>
+          <div class="paco stop-5" role="img" aria-label="Paco llega a la meta del camino de nubes con su cuerno, cuatro patas, crin, cola y gafas de sol"><i class="tail"></i><i class="body"></i><i class="leg leg-a"></i><i class="leg leg-b"></i><i class="leg leg-c"></i><i class="leg leg-d"></i><i class="neck"></i><i class="head"><i class="mane"></i><i class="ear"></i><i class="horn"></i><i class="forelock"></i><i class="shade shade-a"></i><i class="shade shade-b"></i><i class="muzzle"></i><i class="smile"></i></i></div>
+          <fieldset class="answers"><legend class="sr-only">Elige una respuesta</legend>
+            <input type="radio" name="q5" id="q5-a"><label for="q5-a">Doy una rueda de prensa a las nubes.</label>
+            <input type="radio" name="q5" id="q5-b"><label for="q5-b">Abro una academia de poses.</label>
+            <input type="radio" name="q5" id="q5-c"><label for="q5-c">Me retiro invicto a merendar.</label>
+          </fieldset>
+        </div>
+        <p class="reaction idle">ÚLTIMA DECISIÓN. QUE ENTRE EL DRAMA.</p>
+      </section>
+
+      <section class="ending" aria-live="polite" aria-labelledby="ending-title">
+        <div class="finish-paco" role="img" aria-label="Paco celebra en la cima"><i class="tail"></i><i class="body"></i><i class="leg leg-a"></i><i class="leg leg-b"></i><i class="leg leg-c"></i><i class="leg leg-d"></i><i class="neck"></i><i class="head"><i class="mane"></i><i class="ear"></i><i class="horn"></i><i class="forelock"></i><i class="shade shade-a"></i><i class="shade shade-b"></i><i class="muzzle"></i><i class="smile"></i></i></div>
+        <p class="eyebrow">HAS LLEGADO A LA CIMA</p><h2 id="ending-title">TU CLASIFICACIÓN FINAL</h2>
+        <p class="result result-a"><strong>EMBAJADOR/A DE LAS NUBES</strong><br>Tu fama huele a pizza y rueda de prensa.</p>
+        <p class="result result-b"><strong>ICONO DE LA POSE GALÁCTICA</strong><br>El universo pide tu rutina capilar.</p>
+        <p class="result result-c"><strong>LEYENDA EN PIJAMA</strong><br>Invicto, merendado y fuera de cobertura.</p>
+        <p class="result-note">La clasificación depende de tu última respuesta. CSS no suma las cinco elecciones.</p>
+        <button class="restart" type="reset">VOLVER A JUGAR ↻</button>
+      </section>
+    </form>
+    <p class="fineprint">HTML + CSS · Sin puntuación acumulada ni respuestas guardadas al cerrar la página.</p>
+  </main>
+
+  <div class="loader" role="status"><p>PACO ESTÁ PREPARANDO SU SUPERIORIDAD</p><div class="paco flying" aria-hidden="true"><i class="tail"></i><i class="body"></i><i class="leg leg-a"></i><i class="leg leg-b"></i><i class="leg leg-c"></i><i class="leg leg-d"></i><i class="neck"></i><i class="head"><i class="mane"></i><i class="ear"></i><i class="horn"></i><i class="forelock"></i><i class="shade shade-a"></i><i class="shade shade-b"></i><i class="muzzle"></i><i class="smile"></i></i></div><span class="loader-cloud loader-cloud-a">☁</span><span class="loader-cloud loader-cloud-b">☁</span><span class="loader-star">✦　✧　✦</span></div>
+</body>
+</html>
